@@ -19,7 +19,7 @@ A Chrome extension to **automatically find multiple users** in **LeetCode contes
 
 Here’s how the extension looks in action:
 
-![LeetCode Rank Search Demo](screenshot.png)
+![LeetCode Rank Search Demo](Screenshot.png)
 ---
 
 ## 📥 Installation (Local)
