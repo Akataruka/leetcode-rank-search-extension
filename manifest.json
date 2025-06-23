@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode Contest User Search",
+  "version": "1.0",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": [
+    "https://leetcode.com/contest/*/ranking/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://leetcode.com/contest/*/ranking/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
