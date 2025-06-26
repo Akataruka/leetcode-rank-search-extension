@@ -52,6 +52,7 @@ Or download the ZIP and extract it.
 2. Click the extension icon in your toolbar  
 3. Click **“Start User Search”**
 4. Enter one or more LeetCode usernames (comma-separated)
+   🚨 Do pass UserNames as shown the ranking not UserIds
 5. A floating dialog appears showing progress  
 6. When users are found, their page numbers are displayed
 
